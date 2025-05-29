@@ -1,0 +1,4 @@
+aiohttp>=3.8.0
+mcp[sse]>=1.0.0
+uvicorn>=0.15.0
+starlette>=0.20.0 
