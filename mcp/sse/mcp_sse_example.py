@@ -13,6 +13,9 @@ from typing import Dict, Any, Optional, List
 from mcp.server.fastmcp import FastMCP
 from mcp.server.fastmcp.prompts import base
 
+# https://www.reddit.com/r/ClaudeAI/comments/1jj80mk/how_can_i_configure_an_mcp_sse_endpoint_in_claude/
+# Claude App 目前不支持 sse 配置，需要 gateway 代理
+
 # 创建 MCP 服务器实例
 mcp = FastMCP("SSE-Demo")
 mcp.settings.mount_path = ""

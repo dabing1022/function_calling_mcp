@@ -1,0 +1,5 @@
+aiohttp>=3.8.0
+mcp[streamable]>=1.0.0
+uvicorn>=0.15.0
+fastapi>=0.100.0
+requests>=2.28.0
